@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thewi\\source\\repos\\Webchat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\webchatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\webchatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\itemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\itemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\html\\room.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\html\\room.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\html\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\html\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\html\\profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\html\\profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\html\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\html\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\html\\chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\html\\chat.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\bin\\Debug\\net8.0\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Webchat\\bin\\Debug\\net8.0\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\bin\\Debug\\net8.0\\items.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Webchat\\bin\\Debug\\net8.0\\items.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\html\\forum.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\html\\forum.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\items.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\items.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|c:\\users\\thewi\\source\\repos\\webchat\\webchat\\svera-playerpost.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{40AD2307-194E-4749-9FB0-BC71946343ED}|Webchat\\SVERA-PlayerPost.csproj|solutionrelative:webchat\\svera-playerpost.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 230,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "room.html",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\room.html",
+              "RelativeDocumentMoniker": "Webchat\\html\\room.html",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\room.html",
+              "RelativeToolTip": "Webchat\\html\\room.html",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-13T14:18:15.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebChatServer.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\WebChatServer.cs",
+              "RelativeDocumentMoniker": "Webchat\\WebChatServer.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\WebChatServer.cs",
+              "RelativeToolTip": "Webchat\\WebChatServer.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAIwMAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T21:16:19.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\UserManager.cs",
+              "RelativeDocumentMoniker": "Webchat\\UserManager.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\UserManager.cs",
+              "RelativeToolTip": "Webchat\\UserManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T21:03:06.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\Program.cs",
+              "RelativeDocumentMoniker": "Webchat\\Program.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\Program.cs",
+              "RelativeToolTip": "Webchat\\Program.cs",
+              "ViewState": "AgIAAFIBAAAAAAAAAAAAAGEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T02:17:24.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\login.html",
+              "RelativeDocumentMoniker": "Webchat\\html\\login.html",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\login.html",
+              "RelativeToolTip": "Webchat\\html\\login.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T05:10:35.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "chat.html",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\chat.html",
+              "RelativeDocumentMoniker": "Webchat\\html\\chat.html",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\chat.html",
+              "RelativeToolTip": "Webchat\\html\\chat.html",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T05:11:19.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemHandler.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\ItemHandler.cs",
+              "RelativeDocumentMoniker": "Webchat\\ItemHandler.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\ItemHandler.cs",
+              "RelativeToolTip": "Webchat\\ItemHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T06:22:12.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "items.json",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\items.json",
+              "RelativeDocumentMoniker": "Webchat\\items.json",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\items.json",
+              "RelativeToolTip": "Webchat\\items.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-02T05:54:28.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "profile.html",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\profile.html",
+              "RelativeDocumentMoniker": "Webchat\\html\\profile.html",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\profile.html",
+              "RelativeToolTip": "Webchat\\html\\profile.html",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T05:11:40.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "register.html",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\register.html",
+              "RelativeDocumentMoniker": "Webchat\\html\\register.html",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\register.html",
+              "RelativeToolTip": "Webchat\\html\\register.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T05:10:55.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "forum.html",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\forum.html",
+              "RelativeDocumentMoniker": "Webchat\\html\\forum.html",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\forum.html",
+              "RelativeToolTip": "Webchat\\html\\forum.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T06:04:52.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\index.html",
+              "RelativeDocumentMoniker": "Webchat\\html\\index.html",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\html\\index.html",
+              "RelativeToolTip": "Webchat\\html\\index.html",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T08:40:04.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SVERA-PlayerPost",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\SVERA-PlayerPost.csproj",
+              "RelativeDocumentMoniker": "Webchat\\SVERA-PlayerPost.csproj",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\SVERA-PlayerPost.csproj",
+              "RelativeToolTip": "Webchat\\SVERA-PlayerPost.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-02T06:04:41.851Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 170,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "items.cs",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\items.cs",
+              "RelativeDocumentMoniker": "Webchat\\items.cs",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\items.cs",
+              "RelativeToolTip": "Webchat\\items.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwFAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T20:59:32.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "users.json",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\bin\\Debug\\net8.0\\users.json",
+              "RelativeDocumentMoniker": "Webchat\\bin\\Debug\\net8.0\\users.json",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\bin\\Debug\\net8.0\\users.json",
+              "RelativeToolTip": "Webchat\\bin\\Debug\\net8.0\\users.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAzAgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-02T09:39:48.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "items.json",
+              "DocumentMoniker": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\bin\\Debug\\net8.0\\items.json",
+              "RelativeDocumentMoniker": "Webchat\\bin\\Debug\\net8.0\\items.json",
+              "ToolTip": "C:\\Users\\thewi\\source\\repos\\Webchat\\Webchat\\bin\\Debug\\net8.0\\items.json",
+              "RelativeToolTip": "Webchat\\bin\\Debug\\net8.0\\items.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACtBAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-02T09:39:31.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAKgUAAAAAAAAAAAwwMgUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-02T04:21:57.651Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

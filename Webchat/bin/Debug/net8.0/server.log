@@ -1,0 +1,699 @@
+10/2/2024 7:33:24 AM: Server started at http://127.0.0.1:8080
+10/2/2024 7:33:34 AM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 7:33:34 AM: Served file: forum.html
+10/2/2024 7:33:34 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 7:33:34 AM: Served forum items.
+10/2/2024 7:33:34 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:33:34 AM: Served file: login.html
+10/2/2024 7:33:34 AM: Received request: GET http://localhost:8080/
+10/2/2024 7:33:34 AM: User connected to room: default
+10/2/2024 7:33:34 AM: Received message in room default: {"type":"join","user":"Not Logged In"}
+10/2/2024 7:33:34 AM: Broadcasted message in room default: {"type":"join","user":"Not Logged In"}
+10/2/2024 7:33:39 AM: Received message in room default: {"type":"message","user":"Not Logged In","message":"yo"}
+10/2/2024 7:33:39 AM: Broadcasted message in room default: {"type":"message","user":"Not Logged In","message":"yo"}
+10/2/2024 7:33:50 AM: User disconnected from room: default
+10/2/2024 7:33:50 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 7:33:50 AM: Item posted: Troll Pelt for 0.8 USD.
+10/2/2024 7:33:50 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 7:33:50 AM: Item posted: Troll Pelt for 0.8 USD.
+10/2/2024 7:33:50 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 7:33:50 AM: Item posted: Troll Pelt for 0.8 USD.
+10/2/2024 7:33:50 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 7:33:50 AM: Item posted: Troll Pelt for 0.8 USD.
+10/2/2024 7:35:15 AM: Server started at http://127.0.0.1:8080
+10/2/2024 7:35:21 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 7:35:21 AM: Served file: login.html
+10/2/2024 7:35:21 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:35:21 AM: Served file: login.html
+10/2/2024 7:35:23 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 7:35:23 AM: Login failed for user: the404studios@gmail.com
+10/2/2024 7:35:26 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 7:35:26 AM: Login failed for user: the404studios@gmail.com
+10/2/2024 7:35:28 AM: Received request: GET http://127.0.0.1:8080/register.html
+10/2/2024 7:35:28 AM: Served file: register.html
+10/2/2024 7:35:28 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:35:28 AM: Served file: login.html
+10/2/2024 7:35:29 AM: Received request: POST http://127.0.0.1:8080/register
+10/2/2024 7:35:29 AM: User the404studios@gmail.com registered successfully.
+10/2/2024 7:35:30 AM: Received request: GET http://127.0.0.1:8080/login.html
+10/2/2024 7:35:30 AM: Served file: login.html
+10/2/2024 7:35:30 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:35:30 AM: Served file: login.html
+10/2/2024 7:35:31 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 7:35:31 AM: User the404studios@gmail.com logged in successfully.
+10/2/2024 7:35:31 AM: Received request: GET http://127.0.0.1:8080/chat.html?username=the404studios%40gmail.com
+10/2/2024 7:35:31 AM: Served file: chat.html
+10/2/2024 7:35:32 AM: Received request: GET http://127.0.0.1:8080/chat.html?username=the404studios%40gmail.com
+10/2/2024 7:35:32 AM: Served file: chat.html
+10/2/2024 7:35:32 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:35:32 AM: Served file: login.html
+10/2/2024 7:35:32 AM: Received request: GET http://127.0.0.1:8080/?room=default
+10/2/2024 7:35:32 AM: User connected to room: default
+10/2/2024 7:35:34 AM: User disconnected from room: default
+10/2/2024 7:35:34 AM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 7:35:34 AM: Served file: forum.html
+10/2/2024 7:35:34 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 7:35:34 AM: Served forum items.
+10/2/2024 7:35:34 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:35:34 AM: Served file: login.html
+10/2/2024 7:35:39 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 7:35:39 AM: Item posted: Troll Pelt for 0.8 USD.
+10/2/2024 7:35:39 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 7:35:39 AM: Served forum items.
+10/2/2024 7:39:43 AM: Server started at http://127.0.0.1:8080
+10/2/2024 7:39:50 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 7:39:50 AM: Served file: login.html
+10/2/2024 7:39:50 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:39:50 AM: Served file: login.html
+10/2/2024 7:39:51 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 7:39:51 AM: User the404studios@gmail.com logged in successfully.
+10/2/2024 7:39:51 AM: Received request: GET http://127.0.0.1:8080/chat.html?username=the404studios%40gmail.com
+10/2/2024 7:39:51 AM: Served file: chat.html
+10/2/2024 7:39:52 AM: Received request: GET http://127.0.0.1:8080/chat.html?username=the404studios%40gmail.com
+10/2/2024 7:39:52 AM: Served file: chat.html
+10/2/2024 7:39:52 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:39:52 AM: Served file: login.html
+10/2/2024 7:39:52 AM: Received request: GET http://127.0.0.1:8080/?room=default
+10/2/2024 7:39:52 AM: User connected to room: default
+10/2/2024 7:39:54 AM: User disconnected from room: default
+10/2/2024 7:39:54 AM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 7:39:54 AM: Served file: forum.html
+10/2/2024 7:39:54 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 7:39:54 AM: Served forum items.
+10/2/2024 7:39:54 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:39:54 AM: Served file: login.html
+10/2/2024 7:40:00 AM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 7:40:00 AM: Served file: forum.html
+10/2/2024 7:40:00 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 7:40:00 AM: Served forum items.
+10/2/2024 7:40:00 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:40:00 AM: Served file: login.html
+10/2/2024 7:41:39 AM: Server started at http://127.0.0.1:8080
+10/2/2024 7:41:48 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 7:41:48 AM: Served file: login.html
+10/2/2024 7:41:48 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:41:48 AM: Served file: login.html
+10/2/2024 7:41:54 AM: Received request: GET http://127.0.0.1:8080/register.html
+10/2/2024 7:41:54 AM: Served file: register.html
+10/2/2024 7:41:54 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:41:54 AM: Served file: login.html
+10/2/2024 7:42:02 AM: Received request: POST http://127.0.0.1:8080/register
+10/2/2024 7:42:02 AM: User currnj@gmail.com registered successfully.
+10/2/2024 7:42:06 AM: Received request: GET http://127.0.0.1:8080/login.html
+10/2/2024 7:42:06 AM: Served file: login.html
+10/2/2024 7:42:06 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:42:06 AM: Served file: login.html
+10/2/2024 7:42:13 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 7:42:13 AM: Login failed for user: currnj@gmail.com
+10/2/2024 7:42:15 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 7:42:15 AM: User currnj@gmail.com logged in successfully.
+10/2/2024 7:42:15 AM: Received request: GET http://127.0.0.1:8080/chat.html?username=currnj%40gmail.com
+10/2/2024 7:42:15 AM: Served file: chat.html
+10/2/2024 7:42:16 AM: Received request: GET http://127.0.0.1:8080/chat.html?username=currnj%40gmail.com
+10/2/2024 7:42:16 AM: Served file: chat.html
+10/2/2024 7:42:16 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:42:16 AM: Served file: login.html
+10/2/2024 7:42:16 AM: Received request: GET http://127.0.0.1:8080/?room=default
+10/2/2024 7:42:16 AM: User connected to room: default
+10/2/2024 7:42:25 AM: Received message in room default: currnj@gmail.com: yo can i be verified
+10/2/2024 7:42:25 AM: Broadcasted message in room default: currnj@gmail.com: yo can i be verified
+10/2/2024 7:42:29 AM: User disconnected from room: default
+10/2/2024 7:42:29 AM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 7:42:29 AM: Served file: forum.html
+10/2/2024 7:42:29 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 7:42:29 AM: Served forum items.
+10/2/2024 7:42:29 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 7:42:29 AM: Served file: login.html
+10/2/2024 7:43:03 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 7:43:03 AM: Item posted: Gold Coin Bag for 0.9 USD.
+10/2/2024 7:43:03 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 7:43:03 AM: Served forum items.
+10/2/2024 8:44:55 AM: Server started at http://127.0.0.1:8080
+10/2/2024 8:45:01 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 8:45:01 AM: Served file: login.html
+10/2/2024 8:45:01 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 8:45:01 AM: Served file: login.html
+10/2/2024 8:45:03 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 8:45:03 AM: User currnj@gmail.com logged in successfully.
+10/2/2024 8:45:03 AM: Received request: GET http://127.0.0.1:8080/chat.html?username=currnj%40gmail.com
+10/2/2024 8:45:03 AM: Served file: chat.html
+10/2/2024 8:45:05 AM: Received request: GET http://127.0.0.1:8080/index.html
+10/2/2024 8:45:05 AM: Served file: login.html
+10/2/2024 8:45:05 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 8:45:05 AM: Served file: login.html
+10/2/2024 8:45:06 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 8:45:06 AM: User currnj@gmail.com logged in successfully.
+10/2/2024 8:45:06 AM: Received request: GET http://127.0.0.1:8080/chat.html?username=currnj%40gmail.com
+10/2/2024 8:45:06 AM: Served file: chat.html
+10/2/2024 8:45:07 AM: Received request: GET http://127.0.0.1:8080/index.html
+10/2/2024 8:45:07 AM: Served file: login.html
+10/2/2024 8:45:07 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 8:45:07 AM: Served file: login.html
+10/2/2024 2:32:24 AM: Server started at http://127.0.0.1:8080
+10/2/2024 2:32:30 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:32:30 AM: Served file: index.html
+10/2/2024 2:32:30 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 2:32:30 AM: Served file: login.html
+10/2/2024 2:32:30 AM: Received request: GET http://127.0.0.1:8080/your-3d-background.gif
+10/2/2024 2:32:30 AM: Served file: login.html
+10/2/2024 2:32:30 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 2:32:31 AM: Served forum items.
+10/2/2024 2:32:31 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:32:31 AM: Served file: login.html
+10/2/2024 2:32:53 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 2:32:53 AM: Item details are missing or invalid.
+10/2/2024 2:33:00 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 2:33:00 AM: Item details are missing or invalid.
+10/2/2024 2:33:00 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 2:33:00 AM: Item details are missing or invalid.
+10/2/2024 2:33:02 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:33:02 AM: Served file: index.html
+10/2/2024 2:33:02 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 2:33:02 AM: Served file: login.html
+10/2/2024 2:33:02 AM: Received request: GET http://127.0.0.1:8080/your-3d-background.gif
+10/2/2024 2:33:02 AM: Served file: login.html
+10/2/2024 2:33:02 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 2:33:02 AM: Served forum items.
+10/2/2024 2:33:02 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:33:02 AM: Served file: login.html
+10/2/2024 2:33:02 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:33:02 AM: Served file: index.html
+10/2/2024 2:33:02 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 2:33:02 AM: Served file: login.html
+10/2/2024 2:33:02 AM: Received request: GET http://127.0.0.1:8080/your-3d-background.gif
+10/2/2024 2:33:02 AM: Served file: login.html
+10/2/2024 2:33:02 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 2:33:02 AM: Served forum items.
+10/2/2024 2:33:02 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:33:02 AM: Served file: login.html
+10/2/2024 2:41:48 AM: Server started at http://127.0.0.1:8080
+10/2/2024 2:41:57 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:41:57 AM: Served file: index.html
+10/2/2024 2:41:57 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 2:41:57 AM: Served file: login.html
+10/2/2024 2:41:57 AM: Received request: GET http://127.0.0.1:8080/your-3d-background.gif
+10/2/2024 2:41:57 AM: Served file: login.html
+10/2/2024 2:41:57 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:41:57 AM: Served file: login.html
+10/2/2024 2:44:37 AM: Server started at http://127.0.0.1:8080
+10/2/2024 2:44:40 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:44:40 AM: Served file: index.html
+10/2/2024 2:44:40 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 2:44:40 AM: Served file: login.html
+10/2/2024 2:44:40 AM: Received request: GET http://127.0.0.1:8080/your-3d-background.gif
+10/2/2024 2:44:40 AM: Served file: login.html
+10/2/2024 2:44:40 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:44:40 AM: Served file: login.html
+10/2/2024 2:44:42 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 2:44:42 AM: Served file: chat.html
+10/2/2024 2:44:42 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:44:42 AM: Served file: login.html
+10/2/2024 2:44:42 AM: Received request: GET http://127.0.0.1:8080/?room=default
+10/2/2024 2:44:42 AM: Served file: index.html
+10/2/2024 2:44:48 AM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 2:44:48 AM: Served file: forum.html
+10/2/2024 2:44:48 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 2:44:48 AM: Served forum items.
+10/2/2024 2:44:48 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:44:48 AM: Served file: login.html
+10/2/2024 2:44:53 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 2:44:53 AM: Item posted: Gold Coin Bag
+10/2/2024 2:44:53 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 2:44:53 AM: Served forum items.
+10/2/2024 2:44:55 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:44:55 AM: Served file: login.html
+10/2/2024 2:44:58 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:44:58 AM: Served file: login.html
+10/2/2024 2:45:01 AM: Received request: GET http://127.0.0.1:8080/login.html
+10/2/2024 2:45:01 AM: Served file: login.html
+10/2/2024 2:45:01 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:45:01 AM: Served file: login.html
+10/2/2024 2:45:02 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 2:45:02 AM: Login failed for user: currnj@gmail.com
+10/2/2024 2:45:04 AM: Received request: GET http://127.0.0.1:8080/register.html
+10/2/2024 2:45:04 AM: Served file: register.html
+10/2/2024 2:45:04 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:45:04 AM: Served file: login.html
+10/2/2024 2:45:08 AM: Received request: POST http://127.0.0.1:8080/register
+10/2/2024 2:45:08 AM: User the404studios@gmail.com already exists.
+10/2/2024 2:46:14 AM: Server started at http://127.0.0.1:8080
+10/2/2024 2:46:23 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:46:23 AM: Served file: index.html
+10/2/2024 2:46:23 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 2:46:23 AM: Served file: login.html
+10/2/2024 2:46:23 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:46:23 AM: Served file: login.html
+10/2/2024 2:46:28 AM: Received request: GET http://127.0.0.1:8080/profile.html
+10/2/2024 2:46:28 AM: Served file: profile.html
+10/2/2024 2:46:28 AM: Received request: GET http://127.0.0.1:8080/rooms
+10/2/2024 2:46:28 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:46:28 AM: Served file: login.html
+10/2/2024 2:46:36 AM: Received request: POST http://127.0.0.1:8080/change-password
+10/2/2024 2:46:36 AM: Served file: login.html
+10/2/2024 2:46:42 AM: Received request: GET http://127.0.0.1:8080/login
+10/2/2024 2:46:42 AM: Request body is empty.
+10/2/2024 2:46:44 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:46:44 AM: Served file: login.html
+10/2/2024 2:46:45 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:46:45 AM: Served file: login.html
+10/2/2024 2:46:46 AM: Received request: GET http://127.0.0.1:8080/profile.html
+10/2/2024 2:46:46 AM: Served file: profile.html
+10/2/2024 2:46:46 AM: Received request: GET http://127.0.0.1:8080/rooms
+10/2/2024 2:46:46 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:46:46 AM: Served file: login.html
+10/2/2024 2:46:47 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:46:47 AM: Served file: login.html
+10/2/2024 2:46:48 AM: Received request: GET http://127.0.0.1:8080/login.html
+10/2/2024 2:46:48 AM: Served file: login.html
+10/2/2024 2:46:48 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:46:48 AM: Served file: login.html
+10/2/2024 2:46:49 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 2:46:49 AM: Login failed for user: currnj@gmail.com
+10/2/2024 2:46:51 AM: Received request: GET http://127.0.0.1:8080/register.html
+10/2/2024 2:46:51 AM: Served file: register.html
+10/2/2024 2:46:51 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:46:51 AM: Served file: login.html
+10/2/2024 2:46:53 AM: Received request: POST http://127.0.0.1:8080/register
+10/2/2024 2:46:53 AM: User currnj@gmail.com already exists.
+10/2/2024 2:46:55 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:46:55 AM: Served file: login.html
+10/2/2024 2:46:56 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 2:46:56 AM: Login failed for user: currnj@gmail.com
+10/2/2024 2:47:01 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 2:47:01 AM: Login failed for user: the404studios@gmail.com
+10/2/2024 2:47:03 AM: Received request: GET http://127.0.0.1:8080/register.html
+10/2/2024 2:47:03 AM: Served file: register.html
+10/2/2024 2:47:03 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:47:03 AM: Served file: login.html
+10/2/2024 2:47:10 AM: Received request: POST http://127.0.0.1:8080/register
+10/2/2024 2:47:10 AM: User map@gmail.com registered successfully.
+10/2/2024 2:47:10 AM: Received request: GET http://127.0.0.1:8080/login.html
+10/2/2024 2:47:10 AM: Served file: login.html
+10/2/2024 2:47:10 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:47:10 AM: Served file: login.html
+10/2/2024 2:47:16 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 2:47:16 AM: Login failed for user: map@gmail.com
+10/2/2024 2:47:20 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 2:47:20 AM: User map@gmail.com logged in successfully.
+10/2/2024 2:47:20 AM: Received request: GET http://127.0.0.1:8080/chat.html?username=map%40gmail.com
+10/2/2024 2:47:20 AM: Served file: chat.html
+10/2/2024 2:47:20 AM: Received request: GET http://127.0.0.1:8080/index.html
+10/2/2024 2:47:20 AM: Served file: login.html
+10/2/2024 2:47:21 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:47:21 AM: Served file: login.html
+10/2/2024 2:57:31 AM: Server started at http://127.0.0.1:8080
+10/2/2024 2:57:38 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:57:38 AM: Served file: index.html
+10/2/2024 2:57:38 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 2:57:38 AM: Served file: login.html
+10/2/2024 2:57:38 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:57:38 AM: Served file: login.html
+10/2/2024 2:57:40 AM: Received request: GET http://127.0.0.1:8080/profile.html
+10/2/2024 2:57:40 AM: Served file: profile.html
+10/2/2024 2:57:40 AM: Received request: GET http://127.0.0.1:8080/rooms
+10/2/2024 2:57:40 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:57:40 AM: Served file: login.html
+10/2/2024 2:57:42 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:57:42 AM: Served file: login.html
+10/2/2024 2:57:43 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 2:57:43 AM: Served file: chat.html
+10/2/2024 2:57:43 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:57:43 AM: Served file: login.html
+10/2/2024 2:57:43 AM: Received request: GET http://127.0.0.1:8080/?room=default
+10/2/2024 2:57:43 AM: Served file: index.html
+10/2/2024 2:57:46 AM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 2:57:46 AM: Served file: forum.html
+10/2/2024 2:57:46 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 2:57:46 AM: Served forum items.
+10/2/2024 2:57:46 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:57:46 AM: Served file: login.html
+10/2/2024 2:57:54 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:57:54 AM: Served file: login.html
+10/2/2024 3:00:10 AM: Server started at http://127.0.0.1:8080
+10/2/2024 3:00:16 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 3:00:16 AM: Served file: index.html
+10/2/2024 3:00:16 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 3:00:16 AM: Served file: login.html
+10/2/2024 3:00:16 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:00:16 AM: Served file: login.html
+10/2/2024 3:00:18 AM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 3:00:18 AM: Served file: forum.html
+10/2/2024 3:00:18 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 3:00:18 AM: Served forum items.
+10/2/2024 3:00:18 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:00:18 AM: Served file: login.html
+10/2/2024 3:00:23 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:00:23 AM: Served file: login.html
+10/2/2024 3:00:24 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 3:00:24 AM: Served file: chat.html
+10/2/2024 3:00:24 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:00:24 AM: Served file: login.html
+10/2/2024 3:00:24 AM: Received request: GET http://127.0.0.1:8080/?room=default
+10/2/2024 3:00:24 AM: Served file: index.html
+10/2/2024 3:03:30 AM: Server started at http://127.0.0.1:8080
+10/2/2024 3:03:37 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 3:03:37 AM: Served file: index.html
+10/2/2024 3:03:37 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:03:37 AM: Served file: login.html
+10/2/2024 3:03:40 AM: Received request: GET http://127.0.0.1:8080/login.html
+10/2/2024 3:03:40 AM: Served file: login.html
+10/2/2024 3:03:40 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:03:40 AM: Served file: login.html
+10/2/2024 3:03:42 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 3:03:42 AM: Login failed for user: currnj@gmail.com
+10/2/2024 3:03:44 AM: Received request: GET http://127.0.0.1:8080/register.html
+10/2/2024 3:03:44 AM: Served file: register.html
+10/2/2024 3:03:44 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:03:44 AM: Served file: login.html
+10/2/2024 3:03:53 AM: Received request: POST http://127.0.0.1:8080/register
+10/2/2024 3:03:53 AM: User test@gmail.com registered successfully.
+10/2/2024 3:03:54 AM: Received request: GET http://127.0.0.1:8080/login.html
+10/2/2024 3:03:54 AM: Served file: login.html
+10/2/2024 3:03:55 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:03:55 AM: Served file: login.html
+10/2/2024 3:04:02 AM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 3:04:02 AM: User test@gmail.com logged in successfully.
+10/2/2024 3:04:02 AM: Received request: GET http://127.0.0.1:8080/chat.html?username=test%40gmail.com
+10/2/2024 3:04:02 AM: Served file: chat.html
+10/2/2024 3:04:03 AM: Received request: GET http://127.0.0.1:8080/index.html
+10/2/2024 3:04:03 AM: Served file: login.html
+10/2/2024 3:04:03 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:04:03 AM: Served file: login.html
+10/2/2024 3:04:08 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 3:04:08 AM: Served file: index.html
+10/2/2024 3:04:08 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:04:08 AM: Served file: login.html
+10/2/2024 3:04:09 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 3:04:09 AM: Served file: chat.html
+10/2/2024 3:04:09 AM: Received request: GET http://127.0.0.1:8080/?room=default
+10/2/2024 3:04:09 AM: Served file: index.html
+10/2/2024 3:04:09 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:04:09 AM: Served file: login.html
+10/2/2024 3:04:26 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:04:26 AM: Served file: login.html
+10/2/2024 3:12:36 AM: Server started at http://127.0.0.1:8080
+10/2/2024 3:12:44 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 3:12:44 AM: Served file: index.html
+10/2/2024 3:12:44 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:12:44 AM: Served file: login.html
+10/2/2024 3:12:48 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 3:12:48 AM: Served file: index.html
+10/2/2024 3:12:48 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:12:48 AM: Served file: login.html
+10/2/2024 3:18:48 AM: Server started at http://127.0.0.1:8080
+10/2/2024 3:18:54 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 3:18:54 AM: Served file: index.html
+10/2/2024 3:18:54 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:18:54 AM: Served file: login.html
+10/2/2024 3:20:07 AM: Server started at http://127.0.0.1:8080
+10/2/2024 3:20:13 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 3:20:13 AM: Served file: index.html
+10/2/2024 3:20:13 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:20:13 AM: Served file: login.html
+10/2/2024 3:20:19 AM: Received request: GET http://127.0.0.1:8080/profile.html
+10/2/2024 3:20:19 AM: Served file: profile.html
+10/2/2024 3:20:19 AM: Received request: GET http://127.0.0.1:8080/rooms
+10/2/2024 3:20:19 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:20:19 AM: Served file: login.html
+10/2/2024 3:20:22 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:20:22 AM: Served file: login.html
+10/2/2024 3:20:23 AM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 3:20:23 AM: Served file: forum.html
+10/2/2024 3:20:23 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 3:20:23 AM: Served forum items.
+10/2/2024 3:20:23 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:20:23 AM: Served file: login.html
+10/2/2024 3:20:28 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 3:20:28 AM: Item posted: Gold Coin Bag
+10/2/2024 3:20:28 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 3:20:28 AM: Served forum items.
+10/2/2024 3:21:11 AM: Received request: POST http://127.0.0.1:8080/post-item
+10/2/2024 3:21:11 AM: Item posted: Gold Coin Bag
+10/2/2024 3:21:11 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 3:21:11 AM: Served forum items.
+10/2/2024 3:34:44 AM: Server started at http://127.0.0.1:8080
+10/2/2024 3:34:50 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 3:34:50 AM: Served file: index.html
+10/2/2024 3:34:50 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:34:50 AM: Served file: login.html
+10/2/2024 3:34:51 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 3:34:51 AM: Served file: chat.html
+10/2/2024 3:34:51 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:34:51 AM: Served file: login.html
+10/2/2024 3:34:51 AM: Received request: GET http://127.0.0.1:8080/?room=default
+10/2/2024 3:34:51 AM: Served file: index.html
+10/2/2024 3:36:33 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 3:36:33 AM: Served file: index.html
+10/2/2024 3:36:33 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:36:33 AM: Served file: login.html
+10/2/2024 3:36:34 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 3:36:34 AM: Served file: chat.html
+10/2/2024 3:36:34 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:36:34 AM: Served file: login.html
+10/2/2024 3:36:34 AM: Received request: GET http://127.0.0.1:8080/?room=default
+10/2/2024 3:36:34 AM: Served file: index.html
+10/2/2024 3:36:39 AM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 3:36:39 AM: Served file: forum.html
+10/2/2024 3:36:39 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 3:36:39 AM: Served forum items.
+10/2/2024 3:36:39 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:36:39 AM: Served file: login.html
+10/2/2024 3:36:42 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:36:42 AM: Served file: login.html
+10/2/2024 3:50:21 AM: Server started at http://127.0.0.1:8080
+10/2/2024 3:50:51 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 3:50:51 AM: Served file: index.html
+10/2/2024 3:50:51 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:50:51 AM: Served file: login.html
+10/2/2024 3:51:00 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 3:51:00 AM: Served file: chat.html
+10/2/2024 3:51:01 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:51:01 AM: Served file: login.html
+10/2/2024 3:51:01 AM: Received request: GET http://127.0.0.1:8080/?room=default
+10/2/2024 3:51:01 AM: Served file: index.html
+10/2/2024 3:54:18 AM: Server started at http://127.0.0.1:8080
+10/2/2024 3:54:27 AM: Server started at http://127.0.0.1:8080
+10/2/2024 3:54:33 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 3:54:33 AM: Served file: index.html
+10/2/2024 3:54:33 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:54:33 AM: Served file: login.html
+10/2/2024 3:54:36 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 3:54:36 AM: Served file: chat.html
+10/2/2024 3:54:36 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 3:54:36 AM: Served file: login.html
+10/2/2024 3:54:36 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 3:54:36 AM: Served file: login.html
+10/2/2024 10:57:27 AM: Server started at http://127.0.0.1:8080
+10/2/2024 10:57:40 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 10:57:40 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 10:57:43 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 10:57:43 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 10:57:43 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 10:57:50 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 10:57:51 AM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 10:57:51 AM: Received request: GET http://127.0.0.1:8080/forum-items
+10/2/2024 10:57:51 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 10:57:54 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 10:57:55 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 10:57:55 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 10:57:55 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 11:00:40 AM: Server started at http://127.0.0.1:8080
+10/2/2024 11:00:48 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 11:00:48 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 11:00:49 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 11:00:49 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 11:00:49 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 4:05:06 AM: Server started at http://127.0.0.1:8080
+10/2/2024 4:05:12 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 4:05:12 AM: Served file: index.html
+10/2/2024 4:05:12 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 4:05:12 AM: Served file: login.html
+10/2/2024 4:05:15 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 4:05:15 AM: Served file: chat.html
+10/2/2024 4:05:15 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 4:05:15 AM: Served file: login.html
+10/2/2024 4:05:15 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 4:05:15 AM: Served file: login.html
+10/2/2024 4:14:43 AM: Server started at http://127.0.0.1:8080
+10/2/2024 4:14:52 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 4:14:52 AM: Served file: index.html
+10/2/2024 4:14:52 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 4:14:52 AM: Served file: login.html
+10/2/2024 4:14:54 AM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 4:14:54 AM: Served file: chat.html
+10/2/2024 4:14:54 AM: Received request: GET http://127.0.0.1:8080/styles.css
+10/2/2024 4:14:54 AM: Served file: login.html
+10/2/2024 4:14:54 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 4:14:54 AM: Served file: login.html
+10/2/2024 4:18:51 AM: Server started at http://127.0.0.1:8080
+10/2/2024 4:18:54 AM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 4:18:54 AM: Served file: index.html
+10/2/2024 4:18:54 AM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 4:18:54 AM: Served file: login.html
+10/2/2024 2:05:11 PM: Server started at http://127.0.0.1:8080
+10/2/2024 2:05:16 PM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:05:16 PM: Served file: index.html
+10/2/2024 2:05:16 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:05:17 PM: Served file: login.html
+10/2/2024 2:06:56 PM: Server started at http://127.0.0.1:8080
+10/2/2024 2:07:01 PM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:07:01 PM: Served file: index.html
+10/2/2024 2:07:01 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:07:01 PM: Served file: login.html
+10/2/2024 2:07:05 PM: Received request: GET http://127.0.0.1:8080/chat.html
+10/2/2024 2:07:05 PM: Served file: chat.html
+10/2/2024 2:07:05 PM: Received request: GET http://127.0.0.1:8080/rooms
+10/2/2024 2:07:05 PM: Served file: login.html
+10/2/2024 2:07:05 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:07:05 PM: Served file: login.html
+10/2/2024 2:07:05 PM: Received request: GET http://127.0.0.1:8080/?room=default
+10/2/2024 2:07:05 PM: Served file: index.html
+10/2/2024 2:07:09 PM: Received request: GET http://127.0.0.1:8080/?room=tyea
+10/2/2024 2:07:09 PM: Served file: index.html
+10/2/2024 2:07:13 PM: Received request: GET http://127.0.0.1:8080/rooms
+10/2/2024 2:07:13 PM: Served file: login.html
+10/2/2024 2:07:19 PM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:07:19 PM: Served file: index.html
+10/2/2024 2:07:19 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:07:19 PM: Served file: login.html
+10/2/2024 2:07:20 PM: Received request: GET http://127.0.0.1:8080/forum.html
+10/2/2024 2:07:20 PM: Served file: login.html
+10/2/2024 2:07:20 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:07:20 PM: Served file: login.html
+10/2/2024 2:07:21 PM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 2:07:21 PM: Invalid login details.
+10/2/2024 2:07:23 PM: Received request: GET http://127.0.0.1:8080/register.html
+10/2/2024 2:07:23 PM: Served file: login.html
+10/2/2024 2:07:23 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:07:23 PM: Served file: login.html
+10/2/2024 2:17:47 PM: Server started at http://127.0.0.1:8080
+10/2/2024 2:17:53 PM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:17:53 PM: Served file: index.html
+10/2/2024 2:17:53 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:17:53 PM: Served file: login.html
+10/2/2024 2:18:31 PM: Server started at http://127.0.0.1:8080
+10/2/2024 2:18:37 PM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:18:37 PM: Served file: index.html
+10/2/2024 2:18:37 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:18:37 PM: Served file: login.html
+10/2/2024 2:19:50 PM: Server started at http://127.0.0.1:8080
+10/2/2024 2:19:55 PM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 2:19:55 PM: Served file: index.html
+10/2/2024 2:19:55 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 2:19:55 PM: Served file: login.html
+10/2/2024 9:21:54 PM: Server started at http://127.0.0.1:8080
+10/2/2024 9:21:57 PM: Received request: GET http://127.0.0.1:8080/
+10/2/2024 9:21:57 PM: Served file: login.html
+10/2/2024 9:21:57 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 9:21:57 PM: Served file: login.html
+10/2/2024 9:22:02 PM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 9:22:02 PM: Login details are missing or invalid.
+10/2/2024 9:22:06 PM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 9:22:06 PM: Login details are missing or invalid.
+10/2/2024 9:22:08 PM: Received request: GET http://127.0.0.1:8080/register.html
+10/2/2024 9:22:08 PM: Served file: register.html
+10/2/2024 9:22:08 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 9:22:08 PM: Served file: login.html
+10/2/2024 9:22:13 PM: Received request: POST http://127.0.0.1:8080/register
+10/2/2024 9:22:13 PM: User the404studios@gmail.com already exists.
+10/2/2024 9:22:18 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 9:22:18 PM: Served file: login.html
+10/2/2024 9:22:19 PM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 9:22:19 PM: Login details are missing or invalid.
+10/2/2024 9:22:23 PM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 9:22:23 PM: Login details are missing or invalid.
+10/2/2024 9:22:28 PM: Received request: GET http://127.0.0.1:8080/register.html
+10/2/2024 9:22:28 PM: Served file: register.html
+10/2/2024 9:22:28 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 9:22:28 PM: Served file: login.html
+10/2/2024 9:22:38 PM: Received request: POST http://127.0.0.1:8080/register
+10/2/2024 9:22:38 PM: User test@gmail.com already exists.
+10/2/2024 9:22:42 PM: Received request: POST http://127.0.0.1:8080/register
+10/2/2024 9:22:42 PM: User test123@gmail.com registered successfully.
+10/2/2024 9:22:42 PM: Received request: GET http://127.0.0.1:8080/login
+10/2/2024 9:22:42 PM: Request body is empty.
+10/2/2024 9:22:44 PM: Received request: GET http://127.0.0.1:8080/login
+10/2/2024 9:22:44 PM: Request body is empty.
+10/2/2024 9:23:12 PM: Server started at http://127.0.0.1:8080
+10/2/2024 9:23:15 PM: Received request: GET http://127.0.0.1:8080/?username=Guest
+10/2/2024 9:23:15 PM: User connected to room: default
+10/2/2024 9:23:17 PM: Received message in room default: yo
+10/2/2024 9:23:17 PM: Broadcasted message in room default: yo
+10/2/2024 9:23:19 PM: Received message in room default: where the fuck
+10/2/2024 9:23:19 PM: Broadcasted message in room default: where the fuck
+10/2/2024 9:23:22 PM: Received message in room default: is this shit at
+10/2/2024 9:23:22 PM: Broadcasted message in room default: is this shit at
+10/2/2024 9:23:39 PM: Server started at http://127.0.0.1:8080
+10/2/2024 9:23:40 PM: Received request: GET http://127.0.0.1:8080/chat
+10/2/2024 9:23:40 PM: Served file: login.html
+10/2/2024 9:23:40 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 9:23:40 PM: Served file: login.html
+10/2/2024 9:23:42 PM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 9:23:42 PM: Login details are missing or invalid.
+10/2/2024 9:23:50 PM: Received request: GET http://127.0.0.1:8080/register.html
+10/2/2024 9:23:50 PM: Served file: register.html
+10/2/2024 9:23:50 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 9:23:50 PM: Served file: login.html
+10/2/2024 9:23:55 PM: Received request: POST http://127.0.0.1:8080/register
+10/2/2024 9:23:55 PM: User 1@gmail.com registered successfully.
+10/2/2024 9:23:56 PM: Received request: GET http://127.0.0.1:8080/login
+10/2/2024 9:23:56 PM: Request body is empty.
+10/2/2024 9:24:04 PM: Received request: GET http://127.0.0.1:8080/chat
+10/2/2024 9:24:04 PM: Served file: login.html
+10/2/2024 9:24:04 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 9:24:04 PM: Served file: login.html
+10/2/2024 9:24:16 PM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 9:24:16 PM: Login details are missing or invalid.
+10/2/2024 9:24:19 PM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 9:24:19 PM: Login details are missing or invalid.
+10/2/2024 9:24:25 PM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 9:24:25 PM: Login details are missing or invalid.
+10/2/2024 9:24:30 PM: Received request: GET http://127.0.0.1:8080/register.html
+10/2/2024 9:24:30 PM: Served file: register.html
+10/2/2024 9:24:30 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 9:24:30 PM: Served file: login.html
+10/2/2024 9:24:40 PM: Received request: POST http://127.0.0.1:8080/register
+10/2/2024 9:24:40 PM: User pac@gmail.com registered successfully.
+10/2/2024 9:24:41 PM: Received request: GET http://127.0.0.1:8080/login
+10/2/2024 9:24:41 PM: Request body is empty.
+10/2/2024 9:24:43 PM: Received request: GET http://127.0.0.1:8080/chat
+10/2/2024 9:24:43 PM: Served file: login.html
+10/2/2024 9:24:43 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/2/2024 9:24:43 PM: Served file: login.html
+10/2/2024 9:24:49 PM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 9:24:49 PM: Login details are missing or invalid.
+10/2/2024 9:24:53 PM: Received request: POST http://127.0.0.1:8080/login
+10/2/2024 9:24:53 PM: Login details are missing or invalid.
+10/3/2024 11:42:41 PM: Server started at http://127.0.0.1:8080
+10/3/2024 11:42:45 PM: Received request: GET http://127.0.0.1:8080/
+10/3/2024 11:42:45 PM: Served file: login.html
+10/3/2024 11:42:45 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/3/2024 11:42:45 PM: Served file: login.html
+10/3/2024 11:42:47 PM: Received request: POST http://127.0.0.1:8080/login
+10/3/2024 11:42:47 PM: Login details are missing or invalid.
+10/3/2024 11:42:53 PM: Received request: POST http://127.0.0.1:8080/login
+10/3/2024 11:42:53 PM: Login details are missing or invalid.
+10/3/2024 11:42:58 PM: Received request: POST http://127.0.0.1:8080/login
+10/3/2024 11:42:58 PM: Login details are missing or invalid.
+10/3/2024 11:43:04 PM: Received request: GET http://127.0.0.1:8080/register.html
+10/3/2024 11:43:04 PM: Served file: register.html
+10/3/2024 11:43:04 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/3/2024 11:43:04 PM: Served file: login.html
+10/3/2024 11:43:11 PM: Received request: POST http://127.0.0.1:8080/register
+10/3/2024 11:43:11 PM: User test001@gmail.com registered successfully.
+10/3/2024 11:43:12 PM: Received request: GET http://127.0.0.1:8080/login
+10/3/2024 11:43:12 PM: Request body is empty.
+10/3/2024 11:43:14 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/3/2024 11:43:14 PM: Served file: login.html
+10/3/2024 11:43:18 PM: Received request: GET http://127.0.0.1:8080/
+10/3/2024 11:43:18 PM: Served file: login.html
+10/3/2024 11:43:18 PM: Received request: GET http://127.0.0.1:8080/favicon.ico
+10/3/2024 11:43:18 PM: Served file: login.html
+10/3/2024 11:43:38 PM: Received request: POST http://127.0.0.1:8080/login
+10/3/2024 11:43:38 PM: Login details are missing or invalid.
+10/3/2024 11:43:43 PM: Received request: POST http://127.0.0.1:8080/login
+10/3/2024 11:43:43 PM: Login details are missing or invalid.
+10/3/2024 11:43:46 PM: Received request: POST http://127.0.0.1:8080/login
+10/3/2024 11:43:46 PM: Login details are missing or invalid.
+10/3/2024 11:43:48 PM: Received request: POST http://127.0.0.1:8080/login
+10/3/2024 11:43:48 PM: Login details are missing or invalid.

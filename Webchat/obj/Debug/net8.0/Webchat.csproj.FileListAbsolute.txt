@@ -1,0 +1,14 @@
+C:\Users\thewi\source\repos\Webchat\Webchat\bin\Debug\net8.0\Webchat.exe
+C:\Users\thewi\source\repos\Webchat\Webchat\bin\Debug\net8.0\Webchat.deps.json
+C:\Users\thewi\source\repos\Webchat\Webchat\bin\Debug\net8.0\Webchat.runtimeconfig.json
+C:\Users\thewi\source\repos\Webchat\Webchat\bin\Debug\net8.0\Webchat.dll
+C:\Users\thewi\source\repos\Webchat\Webchat\bin\Debug\net8.0\Webchat.pdb
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\Webchat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\Webchat.AssemblyInfoInputs.cache
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\Webchat.AssemblyInfo.cs
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\Webchat.csproj.CoreCompileInputs.cache
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\Webchat.dll
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\refint\Webchat.dll
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\Webchat.pdb
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\Webchat.genruntimeconfig.cache
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\ref\Webchat.dll

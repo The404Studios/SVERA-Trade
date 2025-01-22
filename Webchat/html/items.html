@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Forum</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        input, button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Post an Item</h1>
+    <form id="itemForm">
+        <input type="text" id="itemName" placeholder="Item Name" required>
+        <input type="number" id="itemPrice" placeholder="Price in USD" required min="0">
+        <button type="submit">Post Item</button>
+    </form>
+
+    <h2>Items Listed</h2>
+    <ul id="itemList"></ul>
+
+    <script>
+        document.getElementById('itemForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const itemName = document.getElementById('itemName').value;
+            const itemPrice = document.getElementById('itemPrice').value;
+
+            const response = await fetch('/post-item', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ itemName, price: parseFloat(itemPrice) })
+            });
+
+            if (response.ok) {
+                loadItems();
+            } else {
+                alert('Failed to post item. Please try again.');
+            }
+        });
+
+        async function loadItems() {
+            const response = await fetch('/items');
+            const items = await response.json();
+            const itemList = document.getElementById('itemList');
+            itemList.innerHTML = '';
+            items.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = `${item.itemName}: $${item.price.toFixed(2)}`;
+                itemList.appendChild(li);
+            });
+        }
+
+        loadItems();
+    </script>
+</body>
+</html>

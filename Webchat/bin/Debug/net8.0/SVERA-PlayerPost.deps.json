@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SVERA-PlayerPost/1.0.0": {
+        "runtime": {
+          "SVERA-PlayerPost.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SVERA-PlayerPost/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Forum</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            color: #fff;
+            background: #222; /* Fallback for the background */
+        }
+
+        /* Moving 3D background */
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/black-paper.png'), rgba(0, 0, 0, 0.5);
+            transform: translateZ(-1px) scale(2);
+            animation: moveBackground 10s linear infinite;
+            z-index: -1;
+        }
+
+        @keyframes moveBackground {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+            .header h1 {
+                margin: 0;
+                font-size: 28px;
+            }
+
+            .header .user-info {
+                display: flex;
+                align-items: center;
+            }
+
+                .header .user-info span {
+                    margin-left: 20px;
+                    font-size: 18px;
+                }
+
+        .container {
+            max-width: 1000px;
+            margin: 80px auto;
+            padding: 30px;
+            background-color: rgba(34, 34, 34, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 1; /* Ensure content is above the background */
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        input, button {
+            flex: 1 1 48%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        input {
+            background-color: #333;
+            color: #fff;
+        }
+
+        button {
+            background-color: #6200ea;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            button:hover {
+                background-color: #3700b3;
+            }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin: 15px 0;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            li span {
+                display: inline-block;
+                margin-right: 20px;
+            }
+    </style>
+</head>
+<body>
+    <div class="background"></div> <!-- Add the background div -->
+
+    <div class="header">
+        <h1>Item Forum</h1>
+        <div class="user-info">
+            <span id="userEmail">Email: </span>
+            <span id="userBalance">Balance: 0.00 SVERA</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <form id="postItemForm">
+            <input type="text" id="itemName" placeholder="Item Name" required>
+            <input type="number" id="itemPrice" placeholder="Price (USD)" required min="0.01" step="0.01">
+            <input type="text" id="discordName" placeholder="Discord Name" required>
+            <input type="text" id="characterName" placeholder="Character Name" required>
+            <input type="number" id="itemQuantity" placeholder="Quantity" required min="1">
+            <button type="submit">Post Item</button>
+        </form>
+
+        <h2>Items for Sale</h2>
+        <ul id="itemsList"></ul>
+    </div>
+
+    <script>
+        const form = document.getElementById('postItemForm');
+        const itemsList = document.getElementById('itemsList');
+        const userEmailDisplay = document.getElementById('userEmail');
+        const userBalanceDisplay = document.getElementById('userBalance');
+
+        // Retrieve user email and balance from localStorage or URL parameters
+        const email = localStorage.getItem('userEmail') || 'Not Logged In';
+        const sveraBalance = parseFloat(localStorage.getItem('userBalance')) || 0.00;
+
+        // Set user email and balance on the UI
+        userEmailDisplay.textContent = `Email: ${email}`;
+        userBalanceDisplay.textContent = `Balance: ${sveraBalance.toFixed(2)} SVERA`;
+
+        // Handle form submission for posting items
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const name = document.getElementById('itemName').value;
+            const price = parseFloat(document.getElementById('itemPrice').value);
+            const discordName = document.getElementById('discordName').value;
+            const characterName = document.getElementById('characterName').value;
+            const quantity = parseInt(document.getElementById('itemQuantity').value);
+
+            // Send POST request to server
+            await fetch('/post-item', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ Name: name, Price: price, DiscordName: discordName, CharacterName: characterName, Quantity: quantity, Email: email })
+            });
+
+            // Clear form and reload items
+            form.reset();
+            fetchItems();
+        });
+
+        // Fetch and display forum items
+        async function fetchItems() {
+            const response = await fetch('/forum-items');
+            const items = await response.json();
+            itemsList.innerHTML = '';
+            items.forEach(item => {
+                const li = document.createElement('li');
+                li.innerHTML = `
+                            <span><strong>${item.Name}</strong> - $${item.Price.toFixed(2)}</span>
+                            <span>Discord: ${item.DiscordName}</span>
+                            <span>Character: ${item.CharacterName}</span>
+                            <span>Posted by: ${item.Email}</span>
+                            <span>Quantity: ${item.Quantity}</span>
+                            <span>Posted on: ${new Date(item.TimePosted).toLocaleString()}</span>
+                        `;
+                itemsList.appendChild(li);
+            });
+        }
+
+        // Initial fetch of items on page load
+        fetchItems();
+    </script>
+</body>
+</html>

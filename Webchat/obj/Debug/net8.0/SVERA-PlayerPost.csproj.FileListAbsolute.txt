@@ -1,0 +1,14 @@
+C:\Users\thewi\source\repos\Webchat\Webchat\bin\Debug\net8.0\SVERA-PlayerPost.exe
+C:\Users\thewi\source\repos\Webchat\Webchat\bin\Debug\net8.0\SVERA-PlayerPost.deps.json
+C:\Users\thewi\source\repos\Webchat\Webchat\bin\Debug\net8.0\SVERA-PlayerPost.runtimeconfig.json
+C:\Users\thewi\source\repos\Webchat\Webchat\bin\Debug\net8.0\SVERA-PlayerPost.dll
+C:\Users\thewi\source\repos\Webchat\Webchat\bin\Debug\net8.0\SVERA-PlayerPost.pdb
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\SVERA-PlayerPost.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\SVERA-PlayerPost.AssemblyInfoInputs.cache
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\SVERA-PlayerPost.AssemblyInfo.cs
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\SVERA-PlayerPost.csproj.CoreCompileInputs.cache
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\SVERA-PlayerPost.dll
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\refint\SVERA-PlayerPost.dll
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\SVERA-PlayerPost.pdb
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\SVERA-PlayerPost.genruntimeconfig.cache
+C:\Users\thewi\source\repos\Webchat\Webchat\obj\Debug\net8.0\ref\SVERA-PlayerPost.dll

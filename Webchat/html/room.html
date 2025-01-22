@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <style>
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a; /* Dark background */
+            color: #ffffff; /* White text */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Chat container styles */
+        .chat-container {
+            background: #2c2c2c; /* Darker chat container */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            width: 400px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Chat box styles */
+        #chat-box {
+            flex: 1;
+            border: 1px solid #444; /* Darker border */
+            border-radius: 4px;
+            padding: 10px;
+            overflow-y: scroll;
+            margin-bottom: 10px;
+            height: 100%; /* Ensure it takes up available height */
+        }
+
+        /* Input and button styles */
+        input {
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #444; /* Darker border */
+            border-radius: 4px;
+            width: 100%;
+            background: #333; /* Dark input background */
+            color: #ffffff; /* White text for input */
+        }
+
+        button {
+            padding: 10px;
+            background-color: #28a745; /* Green button */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+            button:hover {
+                background-color: #218838; /* Darker green on hover */
+            }
+
+        /* Room management styles */
+        .room-management {
+            margin-bottom: 20px;
+        }
+
+        .room-list {
+            margin-top: 10px;
+            max-height: 100px;
+            overflow-y: auto;
+            border: 1px solid #444; /* Darker border */
+            padding: 10px;
+            border-radius: 4px;
+            background: #333; /* Dark background for room list */
+        }
+
+        /* Online users styles */
+        .user-list {
+            margin-top: 10px;
+            max-height: 100px;
+            overflow-y: auto;
+            border: 1px solid #444; /* Darker border */
+            padding: 10px;
+            border-radius: 4px;
+            background: #333; /* Dark background for user list */
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h2>Chat Room</h2>
+        <div id="chat-box"></div>
+
+        <!-- Online users section -->
+        <h3>People in the Room</h3>
+        <div class="user-list" id="user-list"></div>
+
+        <!-- Message input section -->
+        <input type="text" id="message" placeholder="Type a message" />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        let socket;
+        let currentRoom = "default"; // Replace with actual room name if needed
+
+        // Initialize WebSocket connection to the room
+        function connectToWebSocket() {
+            socket = new WebSocket(`ws://127.0.0.1:8080/?room=${currentRoom}`);
+
+            socket.onopen = () => {
+                console.log("Connected to room: " + currentRoom);
+            };
+
+            socket.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                if (data.type === 'message') {
+                    const chatBox = document.getElementById("chat-box");
+                    chatBox.innerHTML += `<div>${data.username}: ${data.message}</div>`;
+                    chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll to the bottom
+                } else if (data.type === 'userList') {
+                    updateUserList(data.users);
+                }
+            };
+
+            socket.onclose = () => {
+                console.log("Disconnected from room: " + currentRoom);
+            };
+        }
+
+        // Send a message to the current room
+        function sendMessage() {
+            const messageInput = document.getElementById("message");
+            const message = messageInput.value;
+            if (message && socket && socket.readyState === WebSocket.OPEN) {
+                const data = {
+                    type: 'message',
+                    username: 'YourUsername', // Replace with actual username
+                    message: message
+                };
+                socket.send(JSON.stringify(data));
+                messageInput.value = ''; // Clear the input field
+            }
+        }
+
+        // Update the user list in the room
+        function updateUserList(users) {
+            const userListDiv = document.getElementById("user-list");
+            userListDiv.innerHTML = ''; // Clear existing user list
+            users.forEach(user => {
+                const userElement = document.createElement("div");
+                userElement.textContent = user; // Add user to the list
+                userListDiv.appendChild(userElement);
+            });
+        }
+
+        // Initialize the connection on page load
+        window.onload = () => {
+            connectToWebSocket();
+        };
+    </script>
+</body>
+</html>

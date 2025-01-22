@@ -1,0 +1,180 @@
+using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.IO;
+using System.Net;
+using System.Net.WebSockets;
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.Json;
+using System.Threading;
+using System.Threading.Tasks;
+
+class WebSocketChatServer
+{
+    private static readonly ConcurrentDictionary<string, ConcurrentBag<WebSocket>> RoomClients = new();
+    private static readonly Dictionary<string, string> Users = new();
+    private const string UsersFilePath = "users.json"; // Path to store user credentials
+
+    static async Task Main(string[] args)
+    {
+        LoadUsers();
+
+        HttpListener httpListener = new HttpListener();
+        httpListener.Prefixes.Add("http://127.0.0.1:8080/");
+        httpListener.Start();
+        Console.WriteLine("Server started at http://127.0.0.1:8080");
+
+        while (true)
+        {
+            HttpListenerContext context = await httpListener.GetContextAsync();
+
+            if (context.Request.Url.AbsolutePath == "/login")
+            {
+                HandleLogin(context);
+            }
+            else if (context.Request.Url.AbsolutePath == "/register")
+            {
+                HandleRegistration(context);
+            }
+            else if (context.Request.Url.AbsolutePath == "/profile")
+            {
+                ServeFile(context, "profile.html");
+            }
+            else if (context.Request.Url.AbsolutePath == "/chat")
+            {
+                ServeFile(context, "chat.html");
+            }
+            else if (context.Request.IsWebSocketRequest)
+            {
+                HttpListenerWebSocketContext wsContext = await context.AcceptWebSocketAsync(null);
+                WebSocket webSocket = wsContext.WebSocket;
+
+                string roomName = context.Request.QueryString["room"];
+                if (!RoomClients.ContainsKey(roomName))
+                    RoomClients[roomName] = new ConcurrentBag<WebSocket>();
+
+                RoomClients[roomName].Add(webSocket);
+                await HandleChat(webSocket, roomName);
+            }
+            else
+            {
+                ServeFile(context, "login.html");
+            }
+        }
+    }
+
+    private static void ServeFile(HttpListenerContext context, string fileName)
+    {
+        byte[] content = File.ReadAllBytes(fileName);
+        context.Response.ContentType = "text/html"; // Set content type to HTML
+        context.Response.ContentLength64 = content.Length;
+        context.Response.OutputStream.Write(content, 0, content.Length);
+        context.Response.OutputStream.Close();
+    }
+
+
+    private static async Task HandleChat(WebSocket webSocket, string roomName)
+    {
+        byte[] buffer = new byte[1024 * 4];
+        WebSocketReceiveResult result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
+
+        while (result.MessageType != WebSocketMessageType.Close)
+        {
+            string message = Encoding.UTF8.GetString(buffer, 0, result.Count);
+            Console.WriteLine($"Received message in room {roomName}: {message}");
+
+            await BroadcastMessage(message, roomName);
+            result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
+        }
+
+        RoomClients[roomName].TryTake(out webSocket);
+        await webSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Client disconnected", CancellationToken.None);
+    }
+
+    private static async Task BroadcastMessage(string message, string roomName)
+    {
+        byte[] messageBytes = Encoding.UTF8.GetBytes(message);
+        foreach (var client in RoomClients[roomName])
+        {
+            if (client.State == WebSocketState.Open)
+            {
+                await client.SendAsync(new ArraySegment<byte>(messageBytes), WebSocketMessageType.Text, true, CancellationToken.None);
+            }
+        }
+    }
+
+    private static void HandleLogin(HttpListenerContext context)
+    {
+        using var reader = new StreamReader(context.Request.InputStream);
+        string requestBody = reader.ReadToEnd();
+        var loginDetails = JsonSerializer.Deserialize<Dictionary<string, string>>(requestBody);
+
+        if (loginDetails != null && Users.TryGetValue(loginDetails["username"], out var storedPassword))
+        {
+            if (storedPassword == ComputeHash(loginDetails["password"]))
+            {
+                context.Response.StatusCode = 200; // OK
+                context.Response.Close();
+                return;
+            }
+        }
+
+        context.Response.StatusCode = 401; // Unauthorized
+        context.Response.Close();
+    }
+
+    private static void HandleRegistration(HttpListenerContext context)
+    {
+        using var reader = new StreamReader(context.Request.InputStream);
+        string requestBody = reader.ReadToEnd();
+        var registrationDetails = JsonSerializer.Deserialize<Dictionary<string, string>>(requestBody);
+
+        if (registrationDetails != null)
+        {
+            string username = registrationDetails["username"];
+            string password = ComputeHash(registrationDetails["password"]);
+
+            if (!Users.ContainsKey(username))
+            {
+                Users[username] = password;
+                SaveUsers();
+
+                context.Response.StatusCode = 200; // OK
+                context.Response.Close();
+                return;
+            }
+        }
+
+        context.Response.StatusCode = 400; // Bad Request
+        context.Response.Close();
+    }
+
+    private static void LoadUsers()
+    {
+        if (File.Exists(UsersFilePath))
+        {
+            string json = File.ReadAllText(UsersFilePath);
+            var users = JsonSerializer.Deserialize<Dictionary<string, string>>(json);
+            if (users != null)
+                foreach (var user in users)
+                    Users[user.Key] = user.Value;
+        }
+    }
+
+    private static void SaveUsers()
+    {
+        string json = JsonSerializer.Serialize(Users);
+        File.WriteAllText(UsersFilePath, json);
+    }
+
+    private static string ComputeHash(string input)
+    {
+        using SHA256 sha256 = SHA256.Create();
+        byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(input));
+        StringBuilder result = new StringBuilder();
+        foreach (var b in bytes)
+            result.Append(b.ToString("x2"));
+        return result.ToString();
+    }
+}
